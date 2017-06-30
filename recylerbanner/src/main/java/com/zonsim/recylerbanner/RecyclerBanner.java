@@ -41,7 +41,7 @@ public class RecyclerBanner extends FrameLayout {
     /**
      * 播放下一张的间隔 默认 5000ms
      */
-    private final long mPlayDuration = 5000L;
+    private final long mPlayDuration = 2400L;
     
     /**
      * 平滑滚动的速率 越大越慢 默认90f
