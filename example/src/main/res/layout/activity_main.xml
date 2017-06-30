@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zonsim.example.MainActivity">
+
+    <com.zonsim.recylerbanner.RecyclerBanner
+        android:id="@+id/iv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <com.zonsim.recylerbanner.indicator.BannerIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_banner_indicator"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            app:circle_indicator_color="#FFF"
+            app:circle_indicator_fill_color="@color/colorPrimary"
+            app:circle_indicator_indicator_radius="3dp"
+            app:circle_indicator_radius="2.5dp"/>
+
+    </com.zonsim.recylerbanner.RecyclerBanner>
+
+
+</LinearLayout>
